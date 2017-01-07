@@ -1,0 +1,112 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 100px;
+  color: #2d3c49;
+  font-weight: 100;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+}
+
+.page-header {
+  display: flex;
+  border-bottom: 4px solid #7d97ad;
+  padding-right: 0px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 65px;
+  height: auto;
+  display:inline;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.page-header .col-sm-6 h1, h2 {
+  text-align: right;
+  padding-right: 0px;
+}
+
+.col-sm-6:first-child {
+  padding-right: 0px;
+  padding-top: 40px;
+}
+
+.main-image {
+  max-width: 100%;
+  height:auto;
+}
+
+h2.col-sm-12 {
+  text-align: left;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+footer section {
+  text-align: center;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.col-xs-12 {
+  padding-top: 10px;
+}
+
+.fa {
+  color: #b3b3b3;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.fa-facebook-square:hover {
+    color: #4060A5;
+}
+
+.fa-twitter:hover {
+    color: #00ABE3;
+}
+
+.fa-google-plus:hover {
+    color: #e64522;
+}
+
+.fa-linkedin:hover {
+    color: #0094BC;
+}
+
+ @media screen and (max-width: 768px) {
+   body {
+       background-color: #D9D8E6;
+   }
+   .page-header {
+     text-align:center;
+   }
+   .page-header .col-sm-6 h1, h2 {
+     width: 100%;
+     text-align: center;
+   }
+   h2.col-sm-12 {
+     width: 100%;
+     text-align: center;
+   }
+   .centered {
+     text-align: center;
+   }
+}
